@@ -15,6 +15,7 @@ int main(void){
     dp[2]=3;
     dp[4]=11;
     int i;
+    
     for(i=6;i<=n;i+=2){
         int sum=0;
         int j= i-2;
